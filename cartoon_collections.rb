@@ -38,9 +38,8 @@ def find_valid_calls(planeteer_calls)
     valid_calls.map do |v_call|
       if p_call == v_call
         return p_call
-      else
-        return nil
       end
     end
   end
+  return nil
 end
